@@ -39,12 +39,12 @@ export class FadeIn extends Component {
   };
 
   render() {
-    const { children, ...otherProps } = this.props;
+    const { children, ...rest } = this.props;
     const { isVisible } = this.state;
 
     return (
       <VisibilitySensor onChange={this.handleReveal}>
-        <Fade isVisible={isVisible} {...otherProps}>
+        <Fade isVisible={isVisible} {...rest}>
           {children}
         </Fade>
       </VisibilitySensor>
