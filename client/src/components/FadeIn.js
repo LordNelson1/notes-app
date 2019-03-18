@@ -30,11 +30,11 @@ export class FadeIn extends Component {
     isVisible: false
   };
 
-  handleReveal = receivedState => {
+  handleReveal = bool => {
     const { isVisible } = this.state;
 
     if (!isVisible) {
-      setTimeout(() => this.setState({ isVisible: receivedState }));
+      setTimeout(() => this.setState({ isVisible: bool }));
     }
   };
 
