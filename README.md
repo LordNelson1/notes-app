@@ -22,11 +22,11 @@ The code should be made available from GitHub
 
 In order to run this app you need `node 10`
 
-To run the server: `cd server && npm install` then `npm start`
+To run the server: `npm install` then `npm start`
 
-To run the client: `cd server/client && npm install` then `npm start`
+To run the client: `cd client && npm install` then `npm start`
 
-To test the client: `cd server/client && npm install` then `npm test`
+To test the client: `cd client && npm install` then `npm test`
 
 This app is for demo purpose only, you are not allowed to use any of this code in production. Thanks!
 
