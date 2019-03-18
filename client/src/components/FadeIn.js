@@ -4,7 +4,7 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const Fade = styled.div`
   opacity: 0;
-  transform: translate3d(0, 4px, 0);
+  transform: translate3d(0, 5px, 0);
   transition: all 0.2s cubic-bezier(0.79, 0.03, 0.17, 1);
 
   ${({ delay }) =>
